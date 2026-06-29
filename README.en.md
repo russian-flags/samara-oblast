@@ -2,7 +2,7 @@
 
 [Русская версия](./README.md)
 
-An ESM collection of SVG flags and city metadata for Samara Oblast, Russia. The package structure mirrors `@russian-flags/moscow-oblast`: local SVG files live in `assets/<slug>/index.svg`, build output copies them to `dist/flags/<slug>.svg`, and JavaScript/TypeScript consumers get lazy loaders.
+A native ESM collection of SVG flags for cities in Samara Oblast, Russia. The package can be used as an npm dependency in JavaScript/TypeScript projects or as a set of SVG files with lazy loaders.
 
 The list is based on the "Cities" section of the Russian Wikipedia page ["Urban localities in Samara Oblast"](https://ru.wikipedia.org/wiki/Городские_населённые_пункты_Самарской_области): 11 cities. Urban-type settlements are not included.
 
