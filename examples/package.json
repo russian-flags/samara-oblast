@@ -1,0 +1,17 @@
+{
+  "name": "samara-oblast-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --open /examples/",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --open /examples/"
+  },
+  "devDependencies": {
+    "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "@russian-flags/samara-oblast": "file:.."
+  }
+}
