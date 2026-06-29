@@ -1,4 +1,15 @@
 import { settlements } from "@russian-flags/samara-oblast";
+import chapaevskFlagUrl from "@russian-flags/samara-oblast/flags/chapaevsk.svg";
+import kinelFlagUrl from "@russian-flags/samara-oblast/flags/kinel.svg";
+import neftegorskFlagUrl from "@russian-flags/samara-oblast/flags/neftegorsk.svg";
+import novokuybyshevskFlagUrl from "@russian-flags/samara-oblast/flags/novokuybyshevsk.svg";
+import oktyabrskFlagUrl from "@russian-flags/samara-oblast/flags/oktyabrsk.svg";
+import otradnyyFlagUrl from "@russian-flags/samara-oblast/flags/otradnyy.svg";
+import pohvistnevoFlagUrl from "@russian-flags/samara-oblast/flags/pohvistnevo.svg";
+import samaraFlagUrl from "@russian-flags/samara-oblast/flags/samara.svg";
+import syzranFlagUrl from "@russian-flags/samara-oblast/flags/syzran.svg";
+import tolyattiFlagUrl from "@russian-flags/samara-oblast/flags/tolyatti.svg";
+import zhigulevskFlagUrl from "@russian-flags/samara-oblast/flags/zhigulevsk.svg";
 
 function requiredNode(selector) {
   const node = document.querySelector(selector);
@@ -15,13 +26,26 @@ const flagModalTitle = requiredNode("#flagModalTitle");
 const flagModalImage = requiredNode("#flagModalImage");
 const flagModalClose = requiredNode(".flag-modal__close");
 const nameCollator = new Intl.Collator("ru");
+const flagUrls = Object.freeze({
+  chapaevsk: chapaevskFlagUrl,
+  kinel: kinelFlagUrl,
+  neftegorsk: neftegorskFlagUrl,
+  novokuybyshevsk: novokuybyshevskFlagUrl,
+  oktyabrsk: oktyabrskFlagUrl,
+  otradnyy: otradnyyFlagUrl,
+  pohvistnevo: pohvistnevoFlagUrl,
+  samara: samaraFlagUrl,
+  syzran: syzranFlagUrl,
+  tolyatti: tolyattiFlagUrl,
+  zhigulevsk: zhigulevskFlagUrl,
+});
 
 function sortedSettlements() {
   return [...settlements].sort((left, right) => nameCollator.compare(left.nameRu, right.nameRu));
 }
 
 function assetUrl(settlement) {
-  return `/assets/${settlement.slug}/index.svg`;
+  return flagUrls[settlement.slug];
 }
 
 function makeCell(className, children) {
@@ -75,7 +99,7 @@ function makeFormatCell(settlement) {
   const extension = document.createElement("strong");
   extension.textContent = "SVG";
   const details = document.createElement("span");
-  details.textContent = `assets/${settlement.slug}/index.svg`;
+  details.textContent = `@russian-flags/samara-oblast/flags/${settlement.slug}.svg`;
   details.title = details.textContent;
   return makeCell("format", [extension, details]);
 }
@@ -93,7 +117,7 @@ function makeRow(settlement) {
 }
 
 function updateSummary() {
-  summary.textContent = `${settlements.length} городов, ${settlements.length} SVG-заглушек из assets`;
+  summary.textContent = `${settlements.length} городов, ${settlements.length} SVG из npm-пакета`;
 }
 
 function openFlagModal(settlement) {
