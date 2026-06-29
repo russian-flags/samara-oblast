@@ -6,8 +6,6 @@ An ESM collection of SVG flags and city metadata for Samara Oblast, Russia. The 
 
 The list is based on the "Cities" section of the Russian Wikipedia page ["Urban localities in Samara Oblast"](https://ru.wikipedia.org/wiki/Городские_населённые_пункты_Самарской_области): 11 cities. Urban-type settlements are not included.
 
-The README shows source SVG files from `assets/<slug>/index.svg` so images render on GitHub without committing the build-only `dist` directory.
-
 ## Cities
 
 | City | Flag | slug |
