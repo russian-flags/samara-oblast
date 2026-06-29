@@ -6,23 +6,23 @@
 
 Список основан на странице Wikipedia ["Городские населённые пункты Самарской области"](https://ru.wikipedia.org/wiki/Городские_населённые_пункты_Самарской_области), раздел "Города": 11 городов. Посёлки городского типа не включены.
 
-README показывает собранные SVG из `dist/flags/<slug>.svg`, чтобы изображения были доступны и в опубликованном npm-пакете.
+README показывает исходные SVG из `assets/<slug>/index.svg`, чтобы изображения отображались на GitHub без коммита сборочной папки `dist`.
 
 ## Города
 
 | Город | Флаг | slug |
 | --- | --- | --- |
-| Жигулёвск | <img src="./dist/flags/zhigulevsk.svg" width="120" alt="Флаг Жигулёвска"> | `zhigulevsk` |
-| Кинель | <img src="./dist/flags/kinel.svg" width="120" alt="Флаг Кинеля"> | `kinel` |
-| Нефтегорск | <img src="./dist/flags/neftegorsk.svg" width="120" alt="Флаг Нефтегорска"> | `neftegorsk` |
-| Новокуйбышевск | <img src="./dist/flags/novokuybyshevsk.svg" width="120" alt="Флаг Новокуйбышевска"> | `novokuybyshevsk` |
-| Октябрьск | <img src="./dist/flags/oktyabrsk.svg" width="120" alt="Флаг Октябрьска"> | `oktyabrsk` |
-| Отрадный | <img src="./dist/flags/otradnyy.svg" width="120" alt="Флаг Отрадного"> | `otradnyy` |
-| Похвистнево | <img src="./dist/flags/pohvistnevo.svg" width="120" alt="Флаг Похвистнева"> | `pohvistnevo` |
-| Самара | <img src="./dist/flags/samara.svg" width="120" alt="Флаг Самары"> | `samara` |
-| Сызрань | <img src="./dist/flags/syzran.svg" width="120" alt="Флаг Сызрани"> | `syzran` |
-| Тольятти | <img src="./dist/flags/tolyatti.svg" width="120" alt="Флаг Тольятти"> | `tolyatti` |
-| Чапаевск | <img src="./dist/flags/chapaevsk.svg" width="120" alt="Флаг Чапаевска"> | `chapaevsk` |
+| Жигулёвск | <img src="./assets/zhigulevsk/index.svg" width="120" alt="Флаг Жигулёвска"> | `zhigulevsk` |
+| Кинель | <img src="./assets/kinel/index.svg" width="120" alt="Флаг Кинеля"> | `kinel` |
+| Нефтегорск | <img src="./assets/neftegorsk/index.svg" width="120" alt="Флаг Нефтегорска"> | `neftegorsk` |
+| Новокуйбышевск | <img src="./assets/novokuybyshevsk/index.svg" width="120" alt="Флаг Новокуйбышевска"> | `novokuybyshevsk` |
+| Октябрьск | <img src="./assets/oktyabrsk/index.svg" width="120" alt="Флаг Октябрьска"> | `oktyabrsk` |
+| Отрадный | <img src="./assets/otradnyy/index.svg" width="120" alt="Флаг Отрадного"> | `otradnyy` |
+| Похвистнево | <img src="./assets/pohvistnevo/index.svg" width="120" alt="Флаг Похвистнева"> | `pohvistnevo` |
+| Самара | <img src="./assets/samara/index.svg" width="120" alt="Флаг Самары"> | `samara` |
+| Сызрань | <img src="./assets/syzran/index.svg" width="120" alt="Флаг Сызрани"> | `syzran` |
+| Тольятти | <img src="./assets/tolyatti/index.svg" width="120" alt="Флаг Тольятти"> | `tolyatti` |
+| Чапаевск | <img src="./assets/chapaevsk/index.svg" width="120" alt="Флаг Чапаевска"> | `chapaevsk` |
 
 ## Возможности
 

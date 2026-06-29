@@ -6,23 +6,23 @@ An ESM collection of SVG flags and city metadata for Samara Oblast, Russia. The 
 
 The list is based on the "Cities" section of the Russian Wikipedia page ["Urban localities in Samara Oblast"](https://ru.wikipedia.org/wiki/Городские_населённые_пункты_Самарской_области): 11 cities. Urban-type settlements are not included.
 
-The README shows built SVG files from `dist/flags/<slug>.svg` so the images are available in the published npm package too.
+The README shows source SVG files from `assets/<slug>/index.svg` so images render on GitHub without committing the build-only `dist` directory.
 
 ## Cities
 
 | City | Flag | slug |
 | --- | --- | --- |
-| Zhigulyovsk | <img src="./dist/flags/zhigulevsk.svg" width="120" alt="Flag of Zhigulyovsk"> | `zhigulevsk` |
-| Kinel | <img src="./dist/flags/kinel.svg" width="120" alt="Flag of Kinel"> | `kinel` |
-| Neftegorsk | <img src="./dist/flags/neftegorsk.svg" width="120" alt="Flag of Neftegorsk"> | `neftegorsk` |
-| Novokuybyshevsk | <img src="./dist/flags/novokuybyshevsk.svg" width="120" alt="Flag of Novokuybyshevsk"> | `novokuybyshevsk` |
-| Oktyabrsk | <img src="./dist/flags/oktyabrsk.svg" width="120" alt="Flag of Oktyabrsk"> | `oktyabrsk` |
-| Otradny | <img src="./dist/flags/otradnyy.svg" width="120" alt="Flag of Otradny"> | `otradnyy` |
-| Pokhvistnevo | <img src="./dist/flags/pohvistnevo.svg" width="120" alt="Flag of Pokhvistnevo"> | `pohvistnevo` |
-| Samara | <img src="./dist/flags/samara.svg" width="120" alt="Flag of Samara"> | `samara` |
-| Syzran | <img src="./dist/flags/syzran.svg" width="120" alt="Flag of Syzran"> | `syzran` |
-| Tolyatti | <img src="./dist/flags/tolyatti.svg" width="120" alt="Flag of Tolyatti"> | `tolyatti` |
-| Chapayevsk | <img src="./dist/flags/chapaevsk.svg" width="120" alt="Flag of Chapayevsk"> | `chapaevsk` |
+| Zhigulyovsk | <img src="./assets/zhigulevsk/index.svg" width="120" alt="Flag of Zhigulyovsk"> | `zhigulevsk` |
+| Kinel | <img src="./assets/kinel/index.svg" width="120" alt="Flag of Kinel"> | `kinel` |
+| Neftegorsk | <img src="./assets/neftegorsk/index.svg" width="120" alt="Flag of Neftegorsk"> | `neftegorsk` |
+| Novokuybyshevsk | <img src="./assets/novokuybyshevsk/index.svg" width="120" alt="Flag of Novokuybyshevsk"> | `novokuybyshevsk` |
+| Oktyabrsk | <img src="./assets/oktyabrsk/index.svg" width="120" alt="Flag of Oktyabrsk"> | `oktyabrsk` |
+| Otradny | <img src="./assets/otradnyy/index.svg" width="120" alt="Flag of Otradny"> | `otradnyy` |
+| Pokhvistnevo | <img src="./assets/pohvistnevo/index.svg" width="120" alt="Flag of Pokhvistnevo"> | `pohvistnevo` |
+| Samara | <img src="./assets/samara/index.svg" width="120" alt="Flag of Samara"> | `samara` |
+| Syzran | <img src="./assets/syzran/index.svg" width="120" alt="Flag of Syzran"> | `syzran` |
+| Tolyatti | <img src="./assets/tolyatti/index.svg" width="120" alt="Flag of Tolyatti"> | `tolyatti` |
+| Chapayevsk | <img src="./assets/chapaevsk/index.svg" width="120" alt="Flag of Chapayevsk"> | `chapaevsk` |
 
 ## Features
 
